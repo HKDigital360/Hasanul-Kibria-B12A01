@@ -52,9 +52,20 @@ main{
    color: #FFFFFF; 
    border: none;
    
+   
 }
 .btn-3rd{
      font-size: 16px;
+   width: 174px;
+   height: 48px;   
+   gap: 10px;
+   border-radius: 10px;
+   background-color: #4E47FF;
+   color: #FFFFFF; 
+   border: none;
+}
+.btn-4th{
+    font-size: 16px;
    width: 174px;
    height: 48px;   
    gap: 10px;
@@ -96,10 +107,11 @@ nav{
     font-weight: 800;
 }
 
-.logo-title .inter-font {
+.logo-title {
     font-size: 34px;
     color: #4E47FF;
     font-weight: 800px;
+    font-family:inter;
 
     
 }
@@ -141,18 +153,13 @@ border-radius: 38px;
     text-align: center;
     margin: 116px 159px 137px 141px;
     border-radius: 24px;
-    background-color: #4E47FF; *
-   opacity: 10%;
+
+    background-color:  rgba(78, 71, 255, 0.1);
+    /* opacity: 10%; */
     padding: 80px 50px;
 
 }
- .user-bg{
-    /* margin: 116px 159px 137px 141px;
-    border-radius: 24px;
-    background-color: #4E47FF;
-    opacity: 10%; 
-     padding: 80px 50px;*/
-    }
+
 
 .user-section-rows{
     display: flex;
@@ -167,6 +174,7 @@ border-radius: 38px;
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
+    font-family: inter;
 
 }
 .user-activity{
@@ -179,8 +187,51 @@ opacity: 50%;
     color: #252432;
     font-weight: bold;
     font-size: 38px;
+    
 
 }
 
+/* form section */
+.form-sections{
+   justify-content: space-between;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 92.3px 150px;
+    
+}
+.form-touch-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+.form-section form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* align-content: center; */
+    padding: 0px 71px;
+    gap: 19px;
+    color: #000000;
+    
+}
+.form-label{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    color: #000000;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 18px;
+    
+} 
+form input{
+    
+    border-radius: 10px;
+   
+}
+form textarea{
+    border-radius: 10px;
+    width: 497px 135px;
+}
 
- 
