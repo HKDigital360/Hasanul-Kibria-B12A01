@@ -6,3 +6,76 @@
   font-weight: <weight>;
   font-style: normal;
 }
+/* Header */
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+   height: 850px;
+   color: #4E47FF; 
+    
+}
+/* button styles*/
+.btn-1st{
+   /* padding: 36px 12px; */
+   font-size: 16px;
+   width: 132px;
+   height: 48px;   
+   gap: 10px;
+   border-radius: 10px;
+   background-color: #4E47FF;
+   color: #FFFFFF;  
+   border: none;
+
+}
+.btn-2nd{
+    font-size: 16px;
+   width: 174px;
+   height: 48px;   
+   gap: 10px;
+   border-radius: 10px;
+   background-color: #4E47FF;
+   color: #FFFFFF; 
+   border: none;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin:0 150px; */
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+    
+}
+/* Banner Styles */
+.banner-content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 309px 267.5px 152px 267.5px;
+    gap: 37px;
+
+}
+/* .banner{
+    text-align: center;
+    align-items: center;
+    width: 905px;
+    height: 237px;
+} */
+
+.banner-title{
+    color: #252432;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.logo-title{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: bold;
+    
+}
