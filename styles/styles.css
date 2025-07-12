@@ -235,3 +235,15 @@ form textarea{
     width: 497px 135px;
 }
 
+/* logo styles */
+.footer-logo{
+    text-align: center;
+    color: #4E47FF;
+    font-size: 100px;
+    font-family: inter;
+
+}
+.footer-logo-items{
+    display: flex;
+     justify-content: space-around;
+}
