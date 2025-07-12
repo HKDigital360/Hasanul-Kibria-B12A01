@@ -238,12 +238,37 @@ form textarea{
 /* logo styles */
 .footer-logo{
     text-align: center;
-    color: #4E47FF;
-    font-size: 100px;
-    font-family: inter;
+    /*  */
+   
+    
+    padding: 104px 455px 103px 454px;
 
 }
+.footer-logo-title{
+ font-size: 100px;
+    font-family: inter;
+    color: #4E47FF;
+}
 .footer-logo-items{
-    display: flex;
-     justify-content: space-around;
+     display: flex;
+    justify-content: space-around;
+}
+.footer-description{
+    color: #8987A1;
+    font-family: inter;
+    font-size: 16px;
+   
+}
+.footer-items-name{
+    color: #8987A1;
+    font-family: inter;
+    font-size: 16px;
+    
+}
+footer{
+    color: #FFFFFF;
+}
+.footer-logo-item{
+padding: 0 65px;
+justify-items: center;
 }
